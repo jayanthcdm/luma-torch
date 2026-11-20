@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="frame" x1="64" y1="44" x2="443" y2="484" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#202a34"/>
+      <stop offset="1" stop-color="#0f141a"/>
+    </linearGradient>
+    <radialGradient id="beam" cx="0" cy="0" r="1" gradientTransform="matrix(0 188 -188 0 257 243)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffd5a8" stop-opacity=".2"/>
+      <stop offset=".62" stop-color="#f0a66d" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#f0a66d" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="flame" x1="251" y1="96" x2="258" y2="414" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffd09e"/>
+      <stop offset="1" stop-color="#e68d54"/>
+    </linearGradient>
+  </defs>
+  <rect x="24" y="24" width="464" height="464" rx="126" fill="url(#frame)"/>
+  <rect x="24.75" y="24.75" width="462.5" height="462.5" rx="125.25" stroke="#f4bd8e" stroke-opacity=".16" stroke-width="1.5"/>
+  <circle cx="256" cy="256" r="194" fill="url(#beam)"/>
+  <circle cx="256" cy="256" r="154" stroke="#f6c18f" stroke-opacity=".17" stroke-width="2"/>
+  <circle cx="256" cy="256" r="106" stroke="#f6c18f" stroke-opacity=".1" stroke-width="2"/>
+  <path d="m260 96 72 151h-45l48 56-96 113 22-102h-49l48-218Z" fill="url(#flame)"/>
+  <circle cx="257" cy="254" r="14" fill="#fff4e5" fill-opacity=".86"/>
+  <circle cx="257" cy="254" r="25" stroke="#ffd09e" stroke-opacity=".38" stroke-width="2"/>
+</svg>

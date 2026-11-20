@@ -1,0 +1,20 @@
+# Dependencies and generated build output
+node_modules/
+dist/
+dist-electron/
+.angular/
+outputs/
+release/
+work/
+
+# Local environment and editor state
+.env
+.env.*
+!.env.example
+.DS_Store
+*.log
+
+# Codex and local machine metadata
+.agents/
+.aws/
+.codex/
